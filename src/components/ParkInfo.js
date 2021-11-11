@@ -1,7 +1,6 @@
 const ParkInfo = (props) => {
   return (
   <>
-  {/* <p>Current dinosaur species: {props.currentSpecies.name}</p> */}
   <p>Current dinosaur species: {props.currentSpecies}</p>
   <p>Number of dinosaurs: {props.numberOfDinos}</p>
   </>

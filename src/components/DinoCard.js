@@ -1,10 +1,12 @@
 const DinoCard = (props) => {
-    return (
-        <div className="dino-card">
-            <p>Dinosaur: {props.dino.name}</p>
-            <img src={props.dino.image} alt={props.dino.name}/>
-        </div>
-    )
-}
+  const { name, image } = props.dino;
 
-export default DinoCard
+  return (
+    <div className="dino-card">
+      <p>Dinosaur: {name}</p>
+      <img src={image} alt={name} />
+    </div>
+  );
+};
+
+export default DinoCard;
